@@ -24,6 +24,9 @@ body {
 
 .beginning {
   width: 1600px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ececec;
 }
 
 .header {
@@ -383,6 +386,15 @@ p {
 .description {
   background-color: var(--header-background);
   margin: 0;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #eeeeee;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #eeeeee;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #eeeeee;
 }
 
 .product-title {
