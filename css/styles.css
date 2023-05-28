@@ -184,6 +184,10 @@ p {
   color: var(--logo-color-second);
 }
 
+.section {
+  padding-block: 94px;
+}
+
 .lorem-ipsum,
 .coverage {
   background-color: var(--light-background);
@@ -191,12 +195,12 @@ p {
 
 .lorem-ipsum {
   width: 1600px;
+  padding-bottom: 0;
 }
 
 .lorem {
   display: flex;
   justify-content: space-around;
-  padding-top: 94px;
 }
 
 .coverage {
@@ -223,7 +227,6 @@ p {
   line-height: 1.2;
   font-weight: 700;
   color: var(--headline-color);
-  padding-top: 94px;
   text-align: center;
   margin-bottom: 50px;
 }
@@ -231,7 +234,6 @@ p {
 .actions {
   display: flex;
   justify-content: space-around;
-  padding-bottom: 94px;
 }
 
 .team {
@@ -326,11 +328,12 @@ p {
 
 .buttons {
   width: 1600px;
+  padding-bottom: 0;
 }
 
 .portfolio-branch {
   display: flex;
-  padding: 174px 318px 50px 310px;
+  padding: 0 318px 50px 310px;
 }
 
 .branch-item {
@@ -373,6 +376,7 @@ p {
 
 .products {
   width: 1600px;
+  padding-top: 0;
 }
 
 .product-description {
@@ -423,5 +427,4 @@ p {
   flex-basis: calc((100%-60px) / 3);
   align-content: space-around;
   padding-left: 15px;
-  padding-bottom: 94px;
 }
